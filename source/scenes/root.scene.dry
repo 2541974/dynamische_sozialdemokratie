@@ -1236,7 +1236,7 @@ on-arrival: difficulty = 1; resources = 0; dues = 3; base_dues = 3; rb_strength 
 go-to: 1928_main
 
 @1928_historical
-subtitle: Saving, loading, and polls will be disabled. [? if not achievement_game_completed: Not recommended for a first playthrough. ?]
+subtitle: Speichern, laden, und Umfragen werden deaktiviert sein. [? if not achievement_game_completed: Not recommended for a first playthrough. ?]
 on-arrival: {!
 Q.difficulty = 2;
 Q.historical_mode = 1;
@@ -1258,7 +1258,7 @@ this.state.disableSaves = true;
 go-to: 1928_main
 
 @1928_mod_mode
-subtitle: Intended way of experiencing this mod.
+subtitle: Empfohlener Modus in diesem Mod
 on-arrival: {!
 Q.difficulty = -1;
 Q.dynamic_mode = 1;
@@ -1275,7 +1275,7 @@ Q.budget = 2;
 go-to: 1928_main
 
 @1928_mod_mode_lite
-subtitle: Intended way of experiencing this mod.
+subtitle: Empfohlener Modus in diesem Mod
 on-arrival: {!
 Q.difficulty = -1;
 Q.resources = 3;
@@ -1293,7 +1293,7 @@ go-to: 1928_main
 @1928_challenge
 view-if: achievement_holy
 
-Here, you can test your skills.
+Hier kannst du deine Fähigkeiten unter Beweis stellen.
 
 - @joever_mode
 - @hitler_mode
@@ -1303,7 +1303,7 @@ Here, you can test your skills.
 
 @joever_mode
 title: <div style="text-align: center;"><img src="img/joever.png" alt="Joever"></div>
-subtitle: The <span style="color: #c00000;">**SPD**</span> will start with 0% support.
+subtitle: Die <span style="color: #c00000;">**SPD**</span> wird mit 0% der Wählenden anfangen.
 on-arrival: {!
 Q.workers_spd = 0;
 Q.new_middle_spd = 0;
