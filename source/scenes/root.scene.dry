@@ -6,13 +6,13 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= Sozialdemokratie: Eine Alternative Geschichte
 
 @start_menu_2
 
-- @start_1: Start game
-- @modinfo: Mod Info - Last Updated 2026/01/25
-- @credits: Credits
+- @start_1: Spiel starten
+- @modinfo: Mod Info - Zulezt aktualisiert 25.1.2026
+- @credits: Quellen
 - @game_over.achievements
 
 @start_1
@@ -22,9 +22,9 @@ go-to: start if achievement_game_completed; pls_player if not achievement_game_c
 
 @pls_player
 
-Read.
+Lese.
 
-- @modinfo.infotext: Mod Info - Last Updated 2026/01/25
+- @modinfo.infotext: Mod Info - Zulezt aktualisiert 25.1.2026
 
 
 @start
