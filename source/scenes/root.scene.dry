@@ -1236,7 +1236,7 @@ on-arrival: difficulty = 1; resources = 0; dues = 3; base_dues = 3; rb_strength 
 go-to: 1928_main
 
 @1928_historical
-subtitle: Speichern, laden, und Umfragen werden deaktiviert sein. [? if not achievement_game_completed: Not recommended for a first playthrough. ?]
+subtitle: Speichern, laden, und Umfragen werden deaktiviert sein. [? if not achievement_game_completed: Nicht empfohlen fürs erste Spielerlebnis ?]
 on-arrival: {!
 Q.difficulty = 2;
 Q.historical_mode = 1;
@@ -1382,8 +1382,8 @@ for (var party of Q.parties) {
 go-to: 1928_mod_mode_lite
 
 @hitler_mode
-title: Democracy Under Siege
-subtitle: The <span style="color: #7A3C00;">**NSDAP**</span> will start with 40% support, and cannot peak.
+title: Demokratie unter Besatzung
+subtitle: Die <span style="color: #7A3C00;">**NSDAP**</span> wird mit 40% der Wählenden beginnen und kann keinen Höhepunkt erreichen
 on-arrival: {!
 Q.hitler_mode = 1;
 
@@ -1465,7 +1465,7 @@ go-to: 1928_mod_mode_lite
 
 @unemployed_mode
 title: <div style="text-align: center;"><img src="img/job.png" alt="Jobless Mode"></div>
-subtitle: Unemployment will start at 100%.
+subtitle: Arbeitslosigkeit beginnt bei 100%
 on-arrival: {!
 Q.jobless_mode = 1;
 
@@ -1541,9 +1541,9 @@ for (var party of Q.parties) {
 go-to: 1928_mod_mode_lite
 
 @wacky_weimar
-title: Wacky Weimar Mode
-subtitle: Various unrealistic easter eggs and features will be unlocked. Bugs are part of the experience.
-unavailable-subtitle: 66% or higher achievement completion is required.
+title: Wirres Weimar Modus
+subtitle: Unterschiedliche unrealistische Easter Eggs und Funktionen werden freigeschaltet. Bugs sind Teil des Erlebnisses.
+unavailable-subtitle: 66% or höhere Errungenschaftsvervollständigung benötigt um freizuschalten.
 choose-if: achievement_moly
 on-arrival: {!
 Q.wacky_weimar = 1;
