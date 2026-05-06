@@ -1,5 +1,5 @@
 title: 1932
-subtitle: A new year 
+subtitle: Ein neues Jahr
 on-arrival: {!
 // increase NSDAP vote share 
 if (Q.works_program && Q.works_program >= 2) {
@@ -15,6 +15,6 @@ view-if: year = 1932 and month = 1
 priority: 2
 max-visits: 1
 
-A new year begins. [? if works_program = 0 : There is little to no good news in Germany. The economic depression has still not bottomed out. ?][? if works_program >= 1 and unemployed >= 20 : We have begun to launch a public works program, but unemployment is still stubbornly high. The people are beginning to finally have optimism, however. ?][? if works_program >= 1 and unemployed < 20 : We have begun to launch a public works program, and unemployment is finally starting to fall. The people are beginning to finally have optimism. ?]
+Ein neues Jahr beginnt. [? if works_program = 0 : Es gibt nahezu keine guten Nachrichten in Deutschland. Die Wirtschaftskrise hat immernoch nicht ihren Tiefpunkt erreicht. ?][? if works_program >= 1 and unemployed >= 20 : Wir haben ein Arbeitsprogramm in Gange gesetzt, jedoch ist die Arbeitslosigkeit hartnäckig hoch. Die Deutschen sind jedoch optimistischer. ?][? if works_program >= 1 and unemployed < 20 : Wir haben ein Arbeitsprogramm in Gange gesetzt, und Arbeitslosigkeit hat endlich begonnen zu fallen. Die Leute fangen an optimistisch zu werden. ?]
 
-The presidential election is in April of this year.
+Die Präsidentenwahl findet in diesem April statt.
