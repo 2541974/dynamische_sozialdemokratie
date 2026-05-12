@@ -10,8 +10,8 @@ on-arrival: {!
 
 = 1934
 
-A new year begins. [? if works_program = 0 : The economic depression seems to have bottomed out, but there is still much suffering. It is not too late to launch an economic rescue program. ?][? if works_program >= 1 and unemployed >= 15 : We have begun to launch a public works program, but the economy is still troubled. The recovery has begun, but more must be done. ?][? if works_program >= 1 and unemployed < 15 : Our public works program has successfully guided us through the worst of the crisis. The economy is improving, and finally people have optimism for the future. ?]
+A new year begins. [? if works_program = 0 : Die Wirtschaftskrise scheint abgebremst zu haben, jedoch leiden noch viele im Land. Es ist nicht zu spät ein Konjunktuprogramm in Gange zu setzen. ?][? if works_program >= 1 and unemployed >= 15 : Wir haben ein Arbeitsprogramm in Gange gesetzt, aber die Wirtschaft steckt nach wie vor in Schwierigkeiten. Die wirtschaftliche Erholung hat begonnen, jedoch muss mehr gemacht. ?][? if works_program >= 1 and unemployed < 15 : Unser Arbeitsprogramm hat uns effektiv durch die schlimmste Phase der Krise geführt. Die Wirtschaft erholt sich und endlich sind die Leute optimistisch für die Zukunft. ?]
 
-[? if return_to_normalcy: With the return to normalcy, the political landscape in Germany is shifting. Liberalism is making a return among the middle classes, and the radical parties of the right are declining. ?]
+[? if return_to_normalcy: Mit der Rückkehrung zur Normalität wandelt sich die politische Landschaft Deutschlands. Der Liberalismus ist aufersteht in den Mittelschichten, während die radikalen Parteien der Rechten an Boden verlieren. ?]
 
-[? if president = "Hindenburg" : The president is in poor health; he is not expected to live out the year. ?]
+[? if president = "Hindenburg" : Der Präsident ist gesundheitlich angeschlagen; Er wird wahrscheinlich noch in diesem Jahr von uns gehen. ?]
