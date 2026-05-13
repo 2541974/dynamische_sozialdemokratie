@@ -19,13 +19,13 @@ on-display: {!
 !}
 on-arrival: unemployed -= 0.5; economic_growth += 0.4; hindenburg_angry_bruning += 50
 
-= "Agrarbloshevismus"
+= "Agrarbolschewismus"
 
 Ein Projekt von dem Arbeitsminister Adam Stegerwald der [? if z_party_name != "CVP":<span style="color: #000000;">Zentrumspartei</span>?][? if z_party_name == "CVP":<span style="color: #000000;">CVP</span>?] ist die Auflösung hoffnungslos bankrotter Anwesen im Osten, um sie in bäuerliche Gehöfte aufzuteilen. Das Problem ist, dass es nicht viele junge Arbeitskräfte gibt, die daran interessiert sind, Bauern zu werden.
 
 Jedoch mit Hilfe von Hans Schlange-Schöningen der [? if not kvp_formed and dnvp_ideology == "Radical": <span style="color: #7FCEB1;">**CNBLP**</span>?][? if kvp_formed: <span style="color: #0087DC;">**KVP**</span>?][? if dnvp_ideology == "Moderate": <span style="color: #3E88B3;">**DNVP**</span>?] der seit kurzem Kommissar für Osthilfe ist nachdem Treviranus Reichsverkehrsminister wurde, hat man eine Vereinbarung getroffen: Anwesen, die als „hoffnungslos bankrott“ gelten, werden dem Arbeitsministerium übergeben. Gestützt auf sein Versprechen gegenüber den Gewerkschaften hat Stegerwald eine Verordnung durchgesetzt, die es der Regierung ermöglicht, ausgewählte Betriebe zu Preisen zu erwerben, die vom Amt für Osthilfe festgelegt werden.
 
-Unglücklicherweise für Brüning ist eine Kopie der Verordnung an den Reichslandbund (RLB) durchgesickert. Seine Lobbyisten welche tief eingebettet sind in Hindenburgs innerem Kreis denunzieren die Verordnung als "<span style="color: #385A38;">Agrar</span><span style="color: #9B0000;">bolshevismus</span>" und reden die Verordnung als <span style="color: #9B0000;">Staatssozialismus</span> übel. Sie haben dafür gesorgt, dass der Präsident, der ebenso wie viele seiner Freunde Anwesen im Osten besitzt, dies als persönlichen Angriff wahrnimmt.
+Unglücklicherweise für Brüning ist eine Kopie der Verordnung an den Reichslandbund (RLB) durchgesickert. Seine Lobbyisten welche tief eingebettet sind in Hindenburgs innerem Kreis denunzieren die Verordnung als "<span style="color: #385A38;">Agrar</span><span style="color: #9B0000;">bolschewismus</span>" und reden die Verordnung als <span style="color: #9B0000;">Staatssozialismus</span> übel. Sie haben dafür gesorgt, dass der Präsident, der ebenso wie viele seiner Freunde Anwesen im Osten besitzt, dies als persönlichen Angriff wahrnimmt.
 
 - @joever
 
